@@ -1,0 +1,29 @@
+.rdrDateDisplayWrapper {
+    border-radius: 10px;
+    z-index: 9999;
+ }
+
+ .rdrStaticRangeLabel {
+    display: none;
+    outline: 0;
+    line-height: 18px;
+        padding: 10px 20px;
+        text-align: left;
+        z-index: 9999;
+    }
+
+
+.rdrDefinedRangesWrapper {
+    display: none;
+}
+
+.rdrCalendarWrapper {
+    border-radius: 10px;
+    z-index: 9999 !important;
+}
+
+.rdrDateRangeWrapper {
+    border-radius: 10px;
+    z-index: 9999;
+
+}

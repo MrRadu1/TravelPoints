@@ -1,0 +1,635 @@
+.screen4-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.screen4-screen4 {
+  gap: 103px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.screen4-frame14 {
+  height: 1428px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.screen4-frame40 {
+  gap: 10px;
+  display: flex;
+  padding: 55px 150px;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-image: 
+  linear-gradient(to top, rgb(38, 91, 73, 0.3), rgb(0, 30, 50, 0.5)),
+    url('https://www.designhotels.com/media/vnepkfu5/s-olea-all-suite-hotel-zakynthos-greece.jpg?width=1920&format=webp&quality=80&rnd=133053895147530000');
+
+}
+
+.screen4-frame39 {
+  gap: 467px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.screen4-header-nav {
+  gap: 724px;
+  display: flex;
+  align-items: center;
+}
+.screen4-logo {
+  gap: 3px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.screen4-whole-logo{
+  width: 150px;
+  height: 150px;
+}
+
+.screen4-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 25px;
+  font-style: Extra Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.screen4-vector1 {
+  width: 75px;
+  height: 9px;
+}
+.screen4-links {
+  width: 611px;
+  height: 50px;
+  display: flex;
+  position: sticky;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.screen4-frame30 {
+  gap: 57px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right:-100px;
+}
+.screen4-frame6button {
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  border-color: var(--navbar-text-color);
+}
+.screen4-text-nav {
+  color: var(--navbar-text-color);;
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.screen4-dropdown {
+  position: absolute;
+  top: 100px;
+  color: red;
+}
+
+.screen4-text-nav:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  background: var(--navbar-text-color);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.screen4-text-nav:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.screen4-destination-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+  font-family: Inter;
+  font-size: 16;
+  font-stretch: normal;
+  font-style: Medium;
+  font-weight: 500;
+  text-decoration: none
+}
+
+.screen4-destination-text:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.screen4-destination-text:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.screen4-submenuarrow {
+  gap: 10px;
+  display: flex;
+  padding: 5px 4px;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  rotate: 180deg;
+
+}
+
+.screen4-buttoninput {
+  gap: 10px;
+  display: flex;
+  padding: 12px 30px;
+  align-items: center;
+  border-color: var(--navbar-text-color) ;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 38px;
+  justify-content: center;
+}
+.screen4-magnifyingglasssvg {
+  width: 22px;
+  height: 22px;
+}
+.screen4-text-input {
+  background-color: transparent;
+  color: var(--navbar-text-color);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.screen4-text-input:focus {
+  outline: none;
+}
+
+.screen4-hero-content {
+  gap: 33px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.screen4-text11 {
+  color: rgba(255, 255, 255, 1);
+  width: 696px;
+  height: auto;
+  font-size: 60px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Playfair Display;
+  font-weight: 700;
+  line-height: 106.90000057220459%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.screen4-text13 {
+  color: rgba(255, 255, 255, 1);
+  width: 590px;
+  height: auto;
+  z-index: 1;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.screen4-features {
+  gap: 118px;
+  display: flex;
+  padding: 169px 136px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(217, 237, 130, 1);
+}
+.screen4-feature {
+  gap: 21px;
+  width: 397.6666564941406px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.screen4-shield-checksvg {
+  width: 67px;
+  height: 67px;
+}
+.screen4-text-feature-bold {
+  color: rgba(16, 46, 56, 1);
+  height: auto;
+  font-size: 28px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Playfair Display;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.screen4-text-feature-thin {
+  color: rgba(16, 46, 56, 1);
+  width: 332px;
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.screen4-airplanesvg {
+  width: 67px;
+  height: 67px;
+}
+.screen4-faderssvg {
+  width: 67px;
+  height: 67px;
+}
+.screen4-component1 {
+  gap: 85px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.screen4-header-section3 {
+  gap: 571px;
+  display: flex;
+  align-items: flex-end;
+}
+.screen4-frame2 {
+  gap: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.screen4-text27 {
+  color: rgba(14, 61, 77, 1);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.screen4-text29 {
+  color: rgba(14, 61, 77, 1);
+  height: auto;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Playfair Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.screen4-slidernavigation {
+  gap: 17px;
+  display: flex;
+  align-items: center;
+}
+.screen4-slideleftsvgbutton {
+  width: 82px;
+  height: 45px;
+}
+.screen4-sliderightsvgbutton {
+  width: 82px;
+  height: 45px;
+}
+.screen4-frame4 {
+  width: 1428px;
+  height: 452px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.screen4-frame5 {
+  gap: 40px;
+  top: 0px;
+  left: 0px;
+  width: 2529px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  transition: all 1s;
+}
+.screen4-locationwidgetbutton {
+  width: 327px;
+  height: 452px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.screen4-rectangle {
+  top: 0px;
+  left: 0px;
+  width: 327px;
+  height: 452px;
+  position: absolute;
+  border-radius: 20px;
+  background-image: linear-gradient(to top, rgb(38, 91, 73, 0.8), rgb(0, 30, 50, 0.8));
+  transition: all 2s;
+}
+
+.screen4-rectangle:hover {
+  transform: scale(1.1);
+}
+
+.screen4-frame3 {
+  gap: 16px;
+  top: 200px;
+  left: 63px;
+  width: 180px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.screen4-text31 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Playfair Display;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.screen4-location {
+  gap: 7px;
+  display: flex;
+  align-items: flex-start;
+}
+.screen4-label-pos {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 40px;
+}
+.screen4-group {
+  top: 0px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.screen4-vector {
+  top: 0px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.screen4-vector1 {
+  top: 0px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+
+.screen4-text-travel {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.screen4-text37 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 37px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Playfair Display;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.screen4-text-location {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.screen4-frame28 {
+  gap: 10px;
+  display: flex;
+  padding: 85px 545px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(17, 47, 56, 1);
+}
+.screen4-frame27 {
+  gap: 56px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.screen4-text73 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Playfair Display;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.screen4-button {
+  gap: 8px;
+  display: flex;
+  padding: 14px 38px;
+  align-items: center;
+  border-color: rgba(203, 243, 46, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 38px;
+  justify-content: center;
+  background-color: rgba(203, 243, 46, 1);
+}
+.screen4-text78 {
+  color: rgba(20, 24, 65, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.screen4-arrowright02roundsvg {
+  width: 17px;
+  height: 17px;
+}
+.screen4-footer {
+  gap: 46px;
+  display: flex;
+  padding: 44px;
+  margin-right: 25rem;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.screen4-header-nav1 {
+  gap: 491px;
+  display: flex;
+  align-items: center;
+}
+.screen4-logo1 {
+  gap: 3px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.screen4-text80 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 25px;
+  font-style: Extra Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.screen4-text81 {
+  font-weight: 700;
+}
+.screen4-vector11 {
+  width: 75px;
+  height: 9px;
+}
+.screen4-rectangle19 {
+  width: 1207px;
+  height: 1px;
+  border-color: rgba(6, 34, 43, 0.25999999046325684);
+}
+.screen4-frame141 {
+  gap: 852px;
+  display: flex;
+  align-items: flex-end;
+}
+.screen4-frame29 {
+  gap: 29px;
+  display: flex;
+  align-items: flex-end;
+}
+.screen4-instagramsvg {
+  width: 24px;
+  height: 24px;
+}
+.screen4-linkedinsvg {
+  width: 24px;
+  height: 24px;
+}
+.screen4-facebooksvg {
+  width: 24px;
+  height: 24px;
+}

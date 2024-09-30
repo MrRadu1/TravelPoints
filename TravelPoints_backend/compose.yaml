@@ -1,0 +1,28 @@
+version: '3.1'
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    ports:
+      - 27017:27017
+    volumes:
+      - db-init:/docker-entrypoint-initdb.d:ro
+  be:
+    build:
+      context: ./TravelPoints
+      dockerfile: ./TravelPoints/Dockerfile
+    environment:
+      DB_URL: mongodb://root:example@mongo:27017/?authMechanism=DEFAULT
+    ports:
+      - 80:8080
+      - 8080:8081
+    depends_on:
+      - mongo
+    volumes:
+      - db-init:/TravelPoints/TravelPoints/MongoInit:rw
+volumes:
+  db-init:
